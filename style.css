@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a:hover{
+	text-decoration: none;
+}
+body{
+	font-size: 16px;
+	
+	font-family: sans-serif;
+	background:white;
+	background-image: url(image/img1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+nav{
+	background-color: whitesmoke;
+	position: relative;
+}
+.navbar-brand strong{
+	color: #093966;
+	font-style: italic;
+	border-bottom: 5px solid #093966;
+}
+.nav-item a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #093966;
+}
+.nav-link:hover{
+	border-bottom: 5px solid #A01D31;
+}
+.bar{
+	position: absolute;
+	top: 20px;
+	right: 40px;
+}
+.bar a:hover{
+	color: #A01D31;
+}
+.main{
+	
+	color: white
+	
+}
+
+.strong{
+	font-weight: bold;
+	font-size: 30px;
+	
+	
+}
+.sympt, .prev,.cont, .abouts, .warn{
+	font-weight: 900;
+	color: #A01D31;
+}
+
+
+.symptoms, .preventions, .warning{
+	margin: 40px;
+	color: #093966;
+	border-radius: 50px;
+	
+}
+.symptoms img, .preventions img, .warning img{
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+}
+
+.getstart{
+	padding: 20px;
+	font-weight: bolder;
+	color: #A01D31;
+	background-color: whitesmoke;
+	margin: 40px;
+	border-radius: 50px;
+}
+
+@media screen and (max-width: 480px) {
+   .descript, footer, .tel, .fact{
+		font-size: 10px;
+	}
+	.sympt, .prev,.cont, .abouts, .warn{
+	font-weight: bold;
+		font-size: 18px;
+		
+	}
+}
+	
+	
+}
+@media screen and (max-width: 768px) {
+    .nav-item a, .title{
+		font-size: 16px;
+	
+	}
+	.fact{
+		font-size: 12px;
+	}
+	
+	
+}
+@media screen and (max-width: 669px) {
+    .nav-item a, .title{
+		font-size: 14px;
+	
+	}	
+}
+@media screen and (min-width: 480px) {
+    .position{
+		position: absolute;
+		top: 12px;
+		right: 10px;
+	}	
+}
+
+/******************Contact Us*****************/
+.form{
+	background-color: #093966;
+	color: white;	
+}
+.form button, .form button:hover{
+	
+	background-color: white;
+	color: #093966; 
+	font-weight: bold;	
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.contac_us{
+	color: #093966;
+}
+footer{
+	background-color: #093966;
+	color: #4f6880;	
+}
+a img, .email img{
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+.media a:hover, .tel:hover{
+	color: #A01D31;
+}
+
+
